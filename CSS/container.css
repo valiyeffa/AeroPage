@@ -1,0 +1,33 @@
+.container {
+    background-color: #F4F4F5;
+    background-image: url("/images/indir.png");
+    height: 47vh;
+    margin: 170px 65px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.container .container-boxes {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0 127px;
+    
+}
+
+.container .box {
+    background-color: white;
+    width: 23%;
+    padding: 50px 0;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px rgba(128, 128, 128, 0.268);
+}
+
+.container .box span{
+    font-size: 45px;
+    font-weight: 500;
+}

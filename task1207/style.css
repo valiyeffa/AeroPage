@@ -1,0 +1,29 @@
+header{
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header .nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+header .nav ul li{
+    padding: 0 20px;
+    font-size: 17px;
+}
+
+header .logo{
+    padding: 0 15px;
+    font-size: 20px;
+}
+
+header .butn button{
+    padding: 10px 15px;
+    margin: 15px;
+    border-radius: 5px;
+}

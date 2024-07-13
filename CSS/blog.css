@@ -1,0 +1,76 @@
+.our-blog .main-title {
+    text-align: center;
+}
+
+/* ---------!!!sorus!!!-------- */
+.our-blog .main-title .mini-title p {
+    margin: 0 47%;
+    width: 65px;
+}
+
+.our-blog .main-title .title h1 {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.our-blog .main-title .explanation p {
+    font-size: 16px;
+}
+
+/* ------------------PRODUCT---------------- */
+
+.info-about-product {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.info-about-product .second-product-bar {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.info-about-product .product {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 0.1px solid rgba(128, 128, 128, 0.284);
+    box-shadow: 0.1px 0.1px 1px rgba(128, 128, 128, 0.129);
+    border-radius: 7px;
+    margin: 0 7px;
+}
+
+.info-about-product .product .product-image img {
+    width: 228px;
+    margin: 25px ;
+    border-radius: 5px;
+}
+
+.info-about-product .product .about-product {
+    padding: 0 40px 0 0;
+}
+
+.info-about-product .product .about-product h3 {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.info-about-product .product .about-product p {
+    font-size: 14px;
+    font-weight: 300;
+    padding: 25px 0;
+}
+
+.info-about-product .product .about-product a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.info-about-product .product .about-product a:hover {
+    color: #F97316;
+}
